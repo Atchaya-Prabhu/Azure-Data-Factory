@@ -21,7 +21,7 @@ The pipeline retrieves files from the source container, processes only the requi
 # Project Architecture
 
 <p align="center">
-<img src="images/adf_pipeline_success.png" width="900">
+<img src="pipeline-overview.png" width="900">
 </p>
 
 ---
@@ -35,7 +35,7 @@ Created the Azure infrastructure required for the project.
 - Azure Storage Account
 
 <p align="center">
-<img src="images/resource-group.png" width="900">
+<img src="resource-group.png" width="900">
 </p>
 
 ---
@@ -49,7 +49,7 @@ Created storage containers to organize the ETL workflow.
 - Destination
 
 <p align="center">
-<img src="images/storage-containers.png" width="900">
+<img src="storage-containers.png" width="900">
 </p>
 
 ---
@@ -65,7 +65,7 @@ The pipeline performs the following activities:
 - Mapping Data Flow
 
 <p align="center">
-<img src="images/pipeline-overview.png" width="900">
+<img src="pipeline-overview.png" width="900">
 </p>
 
 ---
@@ -86,7 +86,7 @@ True ─────────► Copy Activity
 False ───────► Skip
 ```
 
-Only files beginning with **Fact** are copied into the Reporting container.
+Only files beginning with **Fact** are copied into the **Reporting** container.
 
 ---
 
@@ -125,7 +125,7 @@ The Data Flow performs multiple transformations.
 - Sink
 
 <p align="center">
-<img src="images/dataflow.png" width="900">
+<img src="dataflow.png" width="900">
 </p>
 
 ---
@@ -171,7 +171,7 @@ The pipeline executed successfully with every activity completed.
 ✔ Mapping Data Flow
 
 <p align="center">
-<img src="images/pipeline-success.png" width="900">
+<img src="pipeline-overview.png" width="900">
 </p>
 
 ---
@@ -211,3 +211,5 @@ Built a reusable Azure Data Factory pipeline that:
 **Atchaya Prabhu**
 
 💼 LinkedIn: https://www.linkedin.com/in/atchaya-prabhu/
+
+💻 GitHub: https://github.com/Atchaya-Prabhu/Azure-Data-Factory
